@@ -1,0 +1,1289 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+main{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+html{
+    overflow-x:hidden;
+}
+.hidden{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    left: 7%;
+    top:33%;
+}
+.menu-principal{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    bottom: 98%;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    list-style: none;
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu ul li a:hover{
+    color:black ;
+}
+.menu{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.logo{
+    width: 35%;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+.slideviewbg{
+    width: 100%;
+}
+.frases h1{
+    text-align: end;
+    font-size: 72px;
+    color: darkorange;
+    text-shadow: #000000 3px 4px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.frases{
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 10%;
+    height: 100%;
+    float: right;
+}
+.slide1{
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide2{
+    background-image: url(eletrica.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.slide3{
+    background-image: url(engenharia-mecanica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.slide4{
+    background-image: url(computacao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.your-class{
+    position: fixed;
+}
+.your-class button.slick-prev{
+    font-size: 0;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    height: 100px;
+    z-index: 9;
+    width: 100px;
+    border: none;
+    background-image: url(../img/previus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.your-class button.slick-next{
+    font-size: 0;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    height: 100px;
+    right: 0;
+    z-index: 9;
+    width: 100px;
+    float: right;
+    border: none;
+    background-image: url(../img/next.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.your-class .slick-next:focus {
+    outline: none;
+}
+.your-class .slick-prev:focus {
+    outline: none;
+}
+.your-class .slick-dots button:focus{
+    outline: none;
+}
+.your-class .slick-dots li button{
+    background-color: transparent;
+    border : 3px solid lightsteelblue;
+    border-radius: 50%;
+    font-size: 0px;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.your-class .slick-dots li{
+    display: inline-block;
+}
+.your-class .slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    left: 42%;
+    position: absolute;
+    bottom: 5%;
+}
+.your-class li.slick-active button{
+    background-color: darkorange;
+    border : 3px solid darkorange;
+    border-radius: 50%;
+}
+.botaomenu{
+    background-color: darkorange;
+    opacity: 90%;
+    border: none;
+    padding:7px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.botaomenu:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.buttonsl1{
+    background-color: darkorange;
+    border: none;
+    top: 70%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    left: 20%;
+    position: relative;
+    padding: 20px;
+    opacity: 85%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.buttonsl1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.buttonsl2{
+    background-color: darkorange;
+    border: none;
+    top: 70%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    left: 20%;
+    position: relative;
+    padding: 20px;
+    opacity: 85%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.buttonsl2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.buttonsl3{
+    background-color: darkorange;
+    border: none;
+    top: 70%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    left: 20%;
+    position: relative;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    opacity: 85%;
+}
+.buttonsl3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.buttonsl4{
+    background-color: darkorange;
+    border: none;
+    top: 70%;
+    font-size: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    left: 20%;
+    position: relative;
+    padding: 20px;
+    opacity: 85%;
+}
+.buttonsl4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+button:focus{
+    outline: none;
+}
+.bannerserv{
+    width: 100%;
+    height: 120px;
+    background-image: url("../img/computacao.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-bottom: 60px;  
+}
+.servicos1{
+    position: relative;
+    bottom: 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkorange;
+    font-weight: bold;
+    font-size: 25px;
+}
+.textoSer{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: right;
+    right: 7%;
+    position: absolute;
+    color: darkorange;
+    text-shadow: #000000 3px 4px 3px;
+
+}
+.logo-area{
+    background-image: url("../img/logo-comp-removebg-preview.png");
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    right: 28%;
+}
+.contentserv{
+    position: relative;
+    height: 100%;
+}
+.serv1{
+    width: 80%;
+    height: 150px;
+    right: 50px;
+    position: relative;
+}
+.serv1 img{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
+.serv1 h1{
+    color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25%;
+    position: absolute;
+    left: 30%;
+}
+.serv1 p{
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-decoration:gray;
+    text-align: left;
+    left: 60%;
+    position: absolute;
+}
+.serv1 button{
+    right: -20%;
+    position: absolute;
+    top:50%;
+    background-color: darkorange;
+    border: none;
+    padding: 15px;
+}
+.serv2{
+    width: 80%;
+    height: 150px;
+    right: 50px;
+    position: relative;
+}
+.serv2 img{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
+.serv2 h1{
+    color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25%;
+    position: absolute;
+    left: 30%;
+}
+.serv2 p{
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-decoration:gray;
+    text-align: left;
+    left: 60%;
+    position: absolute;
+}
+.serv2 button{
+    right: -20%;
+    position: absolute;
+    top:50%;
+    background-color: darkorange;
+    border: none;
+    padding: 15px;
+}
+.serv3{
+    width: 80%;
+    height: 150px;
+    right: 50px;
+    position: relative;
+}
+.serv3 img{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
+.serv3 h1{
+    color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25%;
+    position: absolute;
+    left: 30%;
+}
+.serv3 p{
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-decoration:gray;
+    text-align: left;
+    left: 60%;
+    position: absolute;
+}
+.serv3 button{
+    right: -20%;
+    position: absolute;
+    top:50%;
+    background-color: darkorange;
+    border: none;
+    padding: 15px;
+}
+.servicos2 .bannerserv{
+    width: 100%;
+    height: 120px;
+    background-image: url("../img/engenharia-mecanica.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    margin-bottom: 60px;  
+
+}
+.servicos2 .textoSer{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    left: 12%;
+    font-size: 24px;
+    text-align: left;
+    text-shadow: #000000 3px 4px 3px;
+    position: absolute;
+    color: darkorange;
+}
+.servicos2 .logo-area{
+    background-image: url("../img/logo-mec-removebg-preview.png");
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    left: 3%;
+}
+.serv4{
+    width: 80%;
+    height: 150px;
+    right: 50px;
+    position: relative;
+}
+.serv4 img{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
+.serv4 h1{
+    color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25%;
+    position: absolute;
+    left: 30%;
+}
+.serv4 p{
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-decoration:gray;
+    text-align: left;
+    left: 60%;
+    position: absolute;
+}
+.serv4 button{
+    right: -20%;
+    position: absolute;
+    top:50%;
+    background-color: darkorange;
+    border: none;
+    padding: 15px;
+}
+.serv5{
+    width: 80%;
+    height: 150px;
+    right: 50px;
+    position: relative;
+}
+.serv5 img{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
+.serv5 h1{
+    color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25%;
+    position: absolute;
+    left: 30%;
+}
+.serv5 p{
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-decoration:gray;
+    text-align: left;
+    left: 60%;
+    position: absolute;
+}
+.serv5 button{
+    right: -20%;
+    position: absolute;
+    top:50%;
+    background-color: darkorange;
+    border: none;
+    padding: 15px;
+}
+.servicos3 .bannerserv{
+    width: 100%;
+    height: 120px;
+    background-image: url("../img/eletrica.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    margin-bottom: 60px;  
+
+}
+.servicos3 .textoSer{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    right: 16%;
+    font-size: 24px;
+    text-shadow: #000000 3px 4px 3px;
+    text-align: right;
+    position: absolute;
+    color: darkorange;
+}
+.servicos3 .logo-area{
+    background-image: url("../img/logo-eletrica-removebg-preview.png");
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    right: 28%;
+}
+.quemsomos{
+    width: 100%;
+    position: relative;
+    background-image: url("../img/backgroundquemsomos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+}
+.quemsomos h1{
+    position: absolute;
+    left: 40%;
+    font-size: 50px;
+    text-shadow: #000000 2px 3px 2px;
+    color: darkorange;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quemsomos .linhaprincipal{
+    width: 1px;
+    height: 1680px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    left: 51%;
+    margin-top: 20%;
+}
+.quemsomos .circulo{
+    position: absolute;
+    left: 47.3%;
+    margin-top: 13%;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: transparent;
+    background-image: url("../img/icone-2020.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.quemsomos .circulo:hover{
+    -webkit-transform: scale(3.0);
+    transform: scale(3.0);
+}
+.quemsomos .circulo1{
+    position: absolute;
+    left: 47.3%;
+    margin-top: 38%;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #444444;
+    font-size: 20px;
+    background-color: transparent;
+    background-image: url("../img/icone-2019.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.quemsomos .circulo1:hover{
+    -webkit-transform: scale(3.0);
+    transform: scale(3.0);
+}
+.quemsomos .circulo2{
+    position: absolute;
+    left: 47.3%;
+    margin-top: 63%;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: transparent;
+    background-image: url("../img/icone-2018.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.quemsomos .circulo2:hover{
+    -webkit-transform: scale(3.0);
+    transform: scale(3.0);
+}
+.quemsomos .circulo3{
+    position: absolute;
+    left: 47.3%;
+    margin-top: 88%;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: transparent;
+    background-image: url("../img/icone-2017.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.quemsomos .circulo3:hover{
+    -webkit-transform: scale(3.0);
+    transform: scale(3.0);
+}
+.quemsomos .circulo4{
+    position: absolute;
+    left: 47.3%;
+    margin-top: 113%;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: transparent;
+    background-image: url("../img/icone-2016.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.quemsomos .circulo4:hover{
+    -webkit-transform: scale(3.0);
+    transform: scale(3.0);
+}
+.quemsomos .circulo5{
+    position: absolute;
+    left: 47.3%;
+    margin-top: 138%;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #444444;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: transparent;
+    background-image: url("../img/icone-2015.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.quemsomos .circulo5:hover{
+    -webkit-transform: scale(3.0);
+    transform: scale(3.0);
+}
+.quemsomos .year1{
+    color: darkorange;
+    position: absolute;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-shadow: black 1px 2px 2px;
+    font-weight: bolder;
+    top: 7%;
+}
+.quemsomos .textq1{
+    color: #FFFFFF;
+    width: 400px;
+    position: absolute;
+    left: 14%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: right;
+    top: 10%;
+}
+.quemsomos .year2{
+    color: darkorange;
+    position: absolute;
+    left: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-shadow: black 1px 2px 2px;
+    font-weight: bolder;
+    top: 21.5%;
+}
+.quemsomos .textq2{
+    color: #FFFFFF;
+    width: 400px;
+    position: absolute;
+    left: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    top: 24%;
+}
+
+.quemsomos .year3{
+    color: darkorange;
+    position: absolute;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-shadow: black 1px 2px 2px;
+    font-weight: bolder;
+    top: 37%;
+}
+.quemsomos .textq3{
+    color: #FFFFFF;
+    width: 400px;
+    position: absolute;
+    left: 14%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: right;
+    top: 39.5%;
+}
+.quemsomos .year4{
+    color: darkorange;
+    position: absolute;
+    left: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-shadow: black 1px 2px 2px;
+    font-weight: bolder;
+    top: 52%;
+}
+.quemsomos .textq4{
+    color: #FFFFFF;
+    width: 400px;
+    position: absolute;
+    left: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    top: 54.5%;
+}
+.quemsomos .year5{
+    color: darkorange;
+    position: absolute;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-shadow: black 1px 2px 2px;
+    font-weight: bolder;
+    top: 68%;
+}
+.quemsomos .textq5{
+    color: #FFFFFF;
+    width: 400px;
+    position: absolute;
+    left: 14%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: right;
+    top: 70.5%;
+}
+
+.quemsomos .year6{
+    color: darkorange;
+    position: absolute;
+    left: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-shadow: black 1px 2px 2px;
+    font-weight: bolder;
+    top: 83%;
+}
+.quemsomos .textq6{
+    color: #FFFFFF;
+    width: 400px;
+    position: absolute;
+    left: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    top: 85.5%;
+}
+.missao{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.missao h1{
+    position: absolute;
+    left: 37%;
+    z-index: 99;
+    font-size: 50px;
+    color: darkorange;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.slideviewmissao{
+    width: 100%;
+    height: 86%;
+    top: 140px;
+    position: absolute;
+}
+.slideviewmissao .slideview1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/missao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideviewmissao .slideview2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/visao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideviewmissao .slideview3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/valores.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideviewmissao .slideview1 p{
+    color: darkorange;
+    text-shadow: #000000 2px 1px 1px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 8%;
+    width: 40%;
+}
+.slideviewmissao .slideview2 p{
+    color: darkorange;
+    text-shadow: #000000 2px 1px 1px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-align: right;
+    right: 90px;
+    top: 12%;
+    width: 40%;
+    position: absolute;
+    
+}
+.slideviewmissao .slideview3 p{
+    color: darkorange;
+    text-shadow: #000000 2px 1px 1px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 8%;
+    width: 40%;
+    
+}
+.slideviewmissao button.slick-prev{
+    font-size: 0;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    height: 100px;
+    z-index: 9;
+    width: 100px;
+    border: none;
+    background-image: url(../img/previus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.slideviewmissao button.slick-next{
+    font-size: 0;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    height: 100px;
+    right: 0;
+    z-index: 9;
+    width: 100px;
+    float: right;
+    border: none;
+    background-image: url(../img/next.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slideviewmissao .slick-next:focus {
+    outline: none;
+}
+.slideviewmissao .slick-prev:focus {
+    outline: none;
+}
+.slideviewmissao .slick-dots button:focus{
+    outline: none;
+}
+.slideviewmissao .slick-dots li button{
+    background-color: transparent;
+    border : 3px solid lightsteelblue;
+    border-radius: 50%;
+    font-size: 0px;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.slideviewmissao .slick-dots li{
+    display: inline-block;
+}
+.slideviewmissao .slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    left: 42%;
+    position: absolute;
+    bottom: 5%;
+}
+.slideviewmissao li.slick-active button{
+    background-color: darkblue;
+    border : 3px solid darkblue;
+    border-radius: 50%;
+}
+.time h1{
+    position: absolute;
+    left: 40%;
+    z-index: 99;
+    font-size: 50px;
+    color: darkorange;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contato{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin-top: 5%;
+}
+.pessoa1{
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    height: 400px;
+    top:25%;
+}
+.pessoa1 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa1 .foto{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/exemplofoto4.jpg');
+    border-radius: 50%;
+    margin-left: 18%;
+}
+.pessoa1 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.pessoa1 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.pessoa2{
+    position: absolute;
+    left: 35%;
+    width: 200px;
+    height: 300px;
+    top:25%;
+}
+.pessoa2 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa2 .foto{
+    width: 130px;
+    margin-left: 18%;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/exemplofoto3.jpg');
+    border-radius: 50%;
+}
+.pessoa2 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 15px;
+
+}
+.pessoa2 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.pessoa3{
+    position: absolute;
+    left: 55%;
+    top:25%;
+    width: 200px;
+    height: 300px;
+}
+.pessoa3 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa3 .foto{
+    width: 130px;
+    margin-left: 18%;
+
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/exemplofoto2.png');
+    border-radius: 50%;
+}
+.pessoa3 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.pessoa3 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.pessoa4{
+    position: absolute;
+    left: 75%;
+    top:25%;
+    width: 200px;
+    height: 300px;
+}
+.pessoa4 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa4 .foto{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/exemplofoto1.jpg');
+    border-radius: 50%;
+    margin-left: 18%;
+}
+.pessoa4 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
+.pessoa4 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.telefones{
+    background-color: darkorange;
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+.telefones p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 2%;
+}
+.telefones h2{
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 6%;
+}
+.telefones h3{
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 10%;
+}
+.telefones h4{
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 14%;
+}
+.telefones .facebook{
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 39%;
+    margin-top: 17%;
+}
+.telefones .whatsapp{
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/whatsapp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 45%;
+    margin-top: 17%;
+}
+.telefones .instagram{
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/instagram.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 51%;
+    margin-top: 17%;
+}
+.telefones .linkedin{
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/linkedinc.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 57%;
+    margin-top: 17%;
+}
