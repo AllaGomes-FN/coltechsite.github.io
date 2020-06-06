@@ -39,9 +39,7 @@ html{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.menu ul li a:hover{
-    color:black ;
-}
+
 .menu{
     width: 60%;
     height: 100%;
@@ -942,7 +940,7 @@ button:focus{
     font-size: 0;
     background-color: transparent;
     position: absolute;
-    top:50%;
+    top:40%;
     height: 100px;
     z-index: 9;
     width: 100px;
@@ -956,7 +954,7 @@ button:focus{
     font-size: 0;
     background-color: transparent;
     position: absolute;
-    top:50%;
+    top:40%;
     height: 100px;
     right: 0;
     z-index: 9;
@@ -996,8 +994,8 @@ button:focus{
     bottom: 5%;
 }
 .slideviewmissao li.slick-active button{
-    background-color: darkblue;
-    border : 3px solid darkblue;
+    background-color: darkorange;
+    border : 3px solid darkorange;
     border-radius: 50%;
 }
 .time h1{
@@ -1011,16 +1009,16 @@ button:focus{
 }
 .contato{
     width: 100%;
-    height: 650px;
+    height: 1100px;
     position: relative;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .pessoa1{
     position: absolute;
     left: 15%;
     width: 200px;
     height: 400px;
-    top:25%;
+    top:15%;
 }
 .pessoa1 h2{
     width: 100%;
@@ -1034,7 +1032,7 @@ button:focus{
     height: 130px;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/exemplofoto4.jpg');
+    background-image: url('../img/WhatsApp\ Image\ 2020-06-04\ at\ 7.01.32\ PM.jpeg');
     border-radius: 50%;
     margin-left: 18%;
 }
@@ -1063,7 +1061,7 @@ button:focus{
     left: 35%;
     width: 200px;
     height: 300px;
-    top:25%;
+    top:15%;
 }
 .pessoa2 h2{
     width: 100%;
@@ -1078,7 +1076,7 @@ button:focus{
     height: 130px;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/exemplofoto3.jpg');
+    background-image: url('../img/WhatsApp_Image_2020-01-14_at_9-removebg-preview.png');
     border-radius: 50%;
 }
 .pessoa2 .textpess{
@@ -1105,7 +1103,7 @@ button:focus{
 .pessoa3{
     position: absolute;
     left: 55%;
-    top:25%;
+    top:15%;
     width: 200px;
     height: 300px;
 }
@@ -1123,7 +1121,7 @@ button:focus{
     height: 130px;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/exemplofoto2.png');
+    background-image: url('../img/IMG_0892-removebg-preview.png');
     border-radius: 50%;
 }
 .pessoa3 .textpess{
@@ -1149,7 +1147,7 @@ button:focus{
 .pessoa4{
     position: absolute;
     left: 75%;
-    top:25%;
+    top:15%;
     width: 200px;
     height: 300px;
 }
@@ -1165,7 +1163,7 @@ button:focus{
     height: 130px;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/exemplofoto1.jpg');
+    background-image: url('../img/IMG_0917-removebg-preview.png');
     border-radius: 50%;
     margin-left: 18%;
 }
@@ -1189,6 +1187,182 @@ button:focus{
     background-image: url('../img/linkedin.png');
     background-size: cover;
 }
+
+
+.pessoa5{
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    height: 400px;
+    top:55%;
+}
+.pessoa5 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa5 .foto{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/IMG_0871-removebg-preview.png');
+    border-radius: 50%;
+    margin-left: 18%;
+}
+.pessoa5 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.pessoa5 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.pessoa6{
+    position: absolute;
+    left: 35%;
+    width: 200px;
+    height: 300px;
+    top:55%;
+}
+.pessoa6 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa6 .foto{
+    width: 130px;
+    margin-left: 18%;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/IMG_0865__2_-removebg-preview.png');
+    border-radius: 50%;
+}
+.pessoa6 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 15px;
+
+}
+.pessoa6 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.pessoa7{
+    position: absolute;
+    left: 55%;
+    top:55%;
+    width: 200px;
+    height: 300px;
+}
+.pessoa7 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa7 .foto{
+    width: 130px;
+    margin-left: 18%;
+
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/IMG_0854-removebg-preview.png');
+    border-radius: 50%;
+}
+.pessoa7 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.pessoa7 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
+.pessoa8{
+    position: absolute;
+    left: 75%;
+    top:55%;
+    width: 200px;
+    height: 300px;
+}
+.pessoa8 h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+}
+.pessoa8 .foto{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/IMG_0925-removebg-preview.png');
+    border-radius: 50%;
+    margin-left: 18%;
+}
+.pessoa8 .textpess{
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
+.pessoa8 .redesocial{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-left: 35%;
+
+    margin-top: 25px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/linkedin.png');
+    background-size: cover;
+}
 .telefones{
     background-color: darkorange;
     width: 100%;
@@ -1196,7 +1370,7 @@ button:focus{
     height: 350px;
 }
 .telefones p{
-    color: black;
+    color: wheat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     width: 100%;
